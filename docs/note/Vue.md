@@ -416,7 +416,7 @@ v-if直接就没有编译代码,在DOM树上找不到这个元素
 
    3. 如果存在相同的节点,直接将真实DOM中的节点移动到与newNode中相同节点的对齐位置,然后如果是S--,E++
 
-      ![截屏2021-08-08 下午3.26.25.png](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\d7698f560bb44107911585580c241a99tplv-k3u1fbpfcp-zoom-in-crop-mark4536000.webp)
+      
 
 ### 为什么不推荐使用index作为key
 

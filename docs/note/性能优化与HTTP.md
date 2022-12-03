@@ -171,7 +171,7 @@ Cookie: 为了解决HTTP无状态的问题,使用cookie让服务器记住状态,
 3. no-cache:使用缓存之前向服务器验证是否过期,不管缓存有没有过期
 4. must-revalidate:如果缓存过期了,就向服务器校检,没过期直接用就可以了
 
-![image-20221116200246630](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\image-20221116200246630.png)
+
 
 ​	5. 请求与响应都可以实现cache-control,如果请求头里添加了max-age=0,也就是缓存资源保存0s,也就相当于no-store.即服务器每次都要返回最新的资源
 
@@ -193,7 +193,7 @@ Cookie: 为了解决HTTP无状态的问题,使用cookie让服务器记住状态,
 4. s-maxage,设置缓存在代理服务器上的缓存时间
 5. no-transform:禁止代理服务器偷偷的改变一些数据
 
-![image-20221116204510957](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\image-20221116204510957.png)
+
 
 ### HTTP状态码
 
@@ -227,7 +227,7 @@ https相比较http最大的变化就是下层协议变成了SSL/TLS
 
 TLS是它的正式姓名,SSL只是习惯叫法
 
-![image-20221115204258145](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\image-20221115204258145.png)
+
 
 ### 对称加密与非对称加密
 

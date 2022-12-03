@@ -26,9 +26,6 @@ export default {
             { text: '性能优化与HTTP', link: '/note/性能优化与HTTP' },
             { text: '项目', link: '/note/项目' },
             { text: '算法', link: '/note/算法' },
-            { text: '面经', link: '/note/面经' },
-            { text: '简历', link: '/note/简历' },
-
           ]
         }
       ],

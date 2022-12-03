@@ -11,7 +11,7 @@ layout: doc
 
 栈空间存放了全局执行上下文与函数执行上下文,执行上下文中,基本数据类型直接通过键值对的方式存储.引用类型存储方式是它的值为内存地址,也就是说它存储了引用类型的引用,内存地址指向堆空间
 
-![image-20221127145154279](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\image-20221127145154279.png)
+
 
 为什么不能只有栈空间?
 
@@ -237,7 +237,7 @@ V8引擎完成了将普通的代码转换为机器可以识别的字节码
 
 编译器与解释器
 
-![image-20221127012221691](C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\image-20221127012221691.png)
+
 
 包括
 
@@ -317,8 +317,6 @@ set 与 map都是有序的 它们也都可以迭代 能使用for of 遍历. arra
 set类似如数组,不过set是不能存在重复元素的.因此可以利用set来进行数组去重
 
 weakset与weakmap的重要特性是,它们都是弱引用
-
-<img src="C:\Users\CXG\Desktop\Go\笔记\前端\面试题.assets\watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5YWt5Y-26I2Jfg==,size_20,color_FFFFFF,t_70,g_se,x_16.png" alt="img" style="zoom:50%;" />
 
 弱引用是虚假的连接,是手指的指向.一旦连接狗的绳子断了以后,狗就没有了
 
